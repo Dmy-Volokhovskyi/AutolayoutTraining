@@ -8,7 +8,7 @@
 import UIKit
 
 class PageCell: UICollectionViewCell {
-    
+    //MARK: - Cell content arrangement
     let bearImageView : UIImageView = {
         let imageView = UIImageView(image:UIImage(named: "bear_first"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -43,7 +43,7 @@ class PageCell: UICollectionViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+  //MARK: - Setting Up The UI Layout 
     private func setupLayout(){
         // Top part setUp
         let topImagecontainerView = UIView()
